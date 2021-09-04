@@ -305,4 +305,9 @@ public abstract class PhoneField extends LinearLayout {
   public void setOnItemSelectedListener(OnItemSelectedListener onItemSelectedListener) {
     this.onItemSelectedListener = onItemSelectedListener;
   }
+
+  public Country getCountry(){
+    return mCountry;
+  }
+
 }
