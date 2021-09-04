@@ -1,0 +1,3 @@
+rootProject.name = "PhoneFieldSample"
+include ':app'
+include ':phone-field'
