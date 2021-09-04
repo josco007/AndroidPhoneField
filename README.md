@@ -23,9 +23,20 @@ The library has two different fields:
 In your module's gradle file add the following dependency, please make sure that you have jcenter in your repositories list
 
 ```
-dependencies {
-    implementation 'com.github.josco007:AndroidPhoneField:1.0.0'
-}
+Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+Step 2. Add the dependency
+
+    dependencies {
+            implementation 'com.github.josco007:AndroidPhoneField:Tag'
+    }
+
 ```
 
  In your layout you can use the PhoneInputLayout 
